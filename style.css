@@ -82,14 +82,18 @@ a {
 
     padding: 140px 7vw 70px;
 
-    background:
+    position: relative;
+
+    background-image:
         linear-gradient(
             to top,
-            rgba(17, 17, 17, 0.95),
-            rgba(17, 17, 17, 0.2)
-        );
+            rgba(0, 0, 0, 0.85),
+            rgba(0, 0, 0, 0.15)
+        ),
+        url("hero.jpeg");
 
-    position: relative;
+    background-size: cover;
+    background-position: center;
 }
 
 .hero-content {
